@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.version      = "0.3.1"
   s.license      = "MIT"
   s.author       = { "canius.chu" => "canius.chu@ef.com" }
-  s.homepage     = "https://github.com/E1-Technology/SwiftWebViewBridge"
-  s.source       = { :git => "git@github.com:E1-Technology/SwiftWebViewBridge.git", :tag => s.version }
+  s.homepage     = "https://github.com/edTech-iOS/SwiftWebViewBridge"
+  s.source       = { :git => "git@github.com:edTech-iOS/SwiftWebViewBridge.git", :tag => s.version }
   s.frameworks 	 = "UIKit"
   s.source_files = "SwiftWebViewBridge/*.{swift}"
   s.requires_arc = true

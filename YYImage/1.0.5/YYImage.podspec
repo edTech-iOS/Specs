@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
   s.social_media_url = 'http://blog.ibireme.com'
-  s.homepage     = 'https://github.com/E1-Technology/YYImage'
+  s.homepage     = 'https://github.com/edTech-iOS/YYImage'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  s.source       = { :git => 'git@github.com:E1-Technology/YYImage.git', :tag => s.version.to_s }
+  s.source       = { :git => 'git@github.com:edTech-iOS/YYImage.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.default_subspec = 'Core'
